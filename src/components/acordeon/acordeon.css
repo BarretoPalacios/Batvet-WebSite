@@ -1,0 +1,27 @@
+.acordeon-box {
+    max-width: 300px;
+  }
+  .acordeon-header {
+    min-width:100%;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    border-bottom: #181818 solid 1px;
+  }
+  .acordeon-header  h2{
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+  }
+  .acordeon-descripcion{
+    background-color:#181818;
+    font-weight: lighter;
+    color: white;
+  }
+  
+  
