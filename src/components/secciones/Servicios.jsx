@@ -1,4 +1,4 @@
-import { IconVaccine } from "@tabler/icons-react";
+import { IconVaccine ,IconStethoscope ,IconFaceMask } from "@tabler/icons-react";
 
 import Carousel from "../carrusel/Carousel";
 import CarouselConten from "../carrusel/CarouselConten";
@@ -10,20 +10,20 @@ function Servicios() {
     <CarouselConten
       key={1}
       titulo={"Veterinaria"}
-      parrafo={"lroem lkroe dfsdfsdfsdfdsf lorem rerere"}
-      icon={<IconVaccine stroke={2} size={50} />}
+      parrafo={"Ofrecemos atención médica integral para sus mascotas, incluyendo prevención, diagnóstico y tratamiento de enfermedades, asegurando su salud y bienestar. "}
+      icon={<IconStethoscope  stroke={2} size={50} />}
     />,
     <CarouselConten
       key={2}
       titulo={"vacunas"}
-      parrafo={"lroem lkroe dfsdfsdfsdfdsf lorem rerere"}
+      parrafo={"Proporcionamos programas de vacunación completos para proteger a sus mascotas contra enfermedades comunes y peligrosas, administrados por profesionales capacitados."}
       icon={<IconVaccine stroke={2} size={50} />}
     />,
     <CarouselConten
       key={3}
       titulo={"cirugias"}
-      parrafo={"lroem lkroe dfsdfsdfsdfdsf lorem rerere"}
-      icon={<IconVaccine stroke={2} size={50} />}
+      parrafo={"Realizamos cirugías de rutina y complejas, como esterilización, reparación de fracturas y extracción de tumores, utilizando técnicas avanzadas para una recuperación rápida."}
+      icon={<IconFaceMask  stroke={2} size={50} />}
     />,
   ];
 

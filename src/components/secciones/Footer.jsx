@@ -4,7 +4,7 @@ import AnimateBox from "../animaciones/AnimateBox";
 import Item from "../nav/Item";
 import Imagenes from "../otros/Imagenes";
 import Parrafos from "../textos/Parrafos";
-import Redes from "./Redes";
+
 
 function Footer() {
   return (

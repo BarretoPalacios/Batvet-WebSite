@@ -9,29 +9,33 @@ import AnimateBox from "../animaciones/AnimateBox";
 function Nosotros() {
   const preguntas = [
     {
-      question: "¿Cuál es la capital de Francia?",
-      answer: "París",
-    },
-    {
-      question: "¿Cuál es el elemento químico con el símbolo 'O'?",
-      answer: "Oxígeno",
-    },
-    {
-      question: "¿En qué año comenzó la Segunda Guerra Mundial?",
-      answer: "1939",
-    },
-    {
-      question: "¿Cuál es la capital de Francia?",
-      answer: "París",
-    },
-    {
-      question: "¿Cuál es el elemento químico con el símbolo 'O'?",
-      answer: "Oxígeno",
-    },
-    {
-      question: "¿En qué año comenzó la Segunda Guerra Mundial?",
-      answer: "1939",
-    },
+      question: "¿Con qué frecuencia debo llevar a mi mascota al veterinario?",
+      answer: "Recomendamos llevar a su mascota para un chequeo general al menos una vez al año. Las mascotas mayores o aquellas con condiciones médicas pueden necesitar visitas más frecuentes.",
+  },
+  {
+      question: "¿Qué vacunas necesita mi mascota y cuándo?",
+      answer: "Las necesidades de vacunación varían según la especie y la edad de su mascota. Generalmente, los cachorros y gatitos requieren una serie de vacunas iniciales seguidas de refuerzos anuales. Consulte con nosotros para un plan de vacunación personalizado.",
+  },
+  {
+      question: "¿Qué debo hacer si mi mascota tiene una emergencia?",
+      answer: "En caso de emergencia, llámenos inmediatamente o visite nuestra clínica. Tenemos un equipo preparado para manejar situaciones de emergencia y brindar atención urgente.",
+  },
+  {
+      question: "¿Ofrecen servicios de esterilización y castración?",
+      answer: "Sí, ofrecemos servicios de esterilización y castración para perros y gatos. Estos procedimientos ayudan a prevenir problemas de salud y controlan la población de mascotas.",
+  },
+  {
+      question: "¿Qué tipos de servicios quirúrgicos ofrecen?",
+      answer: "Ofrecemos una amplia gama de servicios quirúrgicos, desde procedimientos de rutina como esterilización y castración hasta cirugías más complejas como la reparación de fracturas y la extracción de tumores.",
+  },
+  {
+      question: "¿Cómo puedo prevenir parásitos en mi mascota?",
+      answer: "Recomendamos el uso regular de productos antiparasitarios para prevenir pulgas, garrapatas y parásitos internos. Consulte con nosotros para elegir el producto adecuado para su mascota.",
+  },
+  {
+      question: "¿Qué opciones de pago aceptan?",
+      answer: "Aceptamos varias formas de pago, incluyendo efectivo, tarjetas de crédito y débito. También ofrecemos opciones de financiamiento para procedimientos más costosos.",
+  },
   ];
 
   return (
@@ -64,12 +68,7 @@ function Nosotros() {
           <CardContent>
             <Subtitulo text2={"Ubicanos"} />
             <p className="txt-parrafo bangers-regular bangers txt-center">
-              Bat Vet es una veterinaria dedicada a proporcionar cuidados
-              integrales y de alta calidad para mascotas, garantizando su
-              bienestar y salud en todas las etapas de su vida. Nuestro equipo
-              de profesionales altamente capacitados y apasionados por los
-              animales ofrece una amplia gama de servicios, que incluyen
-              consultas médicas..
+            Encuentra nuestra clínica veterinaria fácilmente. Estamos ubicados en [Dirección], listos para ofrecer el mejor cuidado a sus mascotas. ¡Visítanos hoy!
             </p>
           </CardContent>
           <CardContent>

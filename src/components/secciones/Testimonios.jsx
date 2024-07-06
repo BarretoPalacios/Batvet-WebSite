@@ -14,9 +14,9 @@ function Testimonios() {
           img={
             "https://images.pexels.com/photos/1458916/pexels-photo-1458916.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           }
-          nombre={"ramita"}
+          nombre={"Max"}
           texto={
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias qui placeat molestiae iure, numquam aut hic itaque"
+            "¡Guau, guau! Me llamo Max. Me llevaron para mis vacunas y no sentí nada gracias a los amables doctores. ¡Gracias por cuidarme tan bien!"
           }
           puntaje={5}
         />
@@ -25,9 +25,9 @@ function Testimonios() {
           img={
             "https://tvazteca.brightspotcdn.com/2a/32/1199875c4f87afc979322f4f412a/la-mirada-de-los-perritos-es-irresistible.jpg"
           }
-          nombre={"chokc"}
+          nombre={"Luna"}
           texto={
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias qui placeat molestiae iure, numquam aut hic itaque"
+            "¡Hola, soy Luna! Tuve que someterme a una cirugía y los veterinarios me hicieron sentir segura. ¡Gracias por devolverme la salud!"
           }
           puntaje={4}
         />
@@ -36,11 +36,11 @@ function Testimonios() {
           img={
             "https://img.freepik.com/foto-gratis/perrito-joven-posando-alegre_155003-28765.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1719878400&semt=sph"
           }
-          nombre={"Laica"}
+          nombre={"Rocky"}
           texto={
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias qui placeat molestiae iure, numquam aut hic itaque"
+            "¡Woof woof! Soy Rocky y me encanta venir a la veterinaria. Me trataron rápidamente y ahora puedo seguir explorando el parque. ¡Son los mejores!"
           }
-          puntaje={4}
+          puntaje={5}
         />
       </div>
     </div>
